@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+header{
+    padding: 30px 0px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container{
+    width: calc(100% - 450px);
+    margin: auto;
+}
+.logo{
+    width: 15%;
+    flex: 0  0 auto;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: center;
+}
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    list-style: none;
+    display: list-item;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 15px 30px;
+    font-weight: 500;
+    display: block;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover {
+    background: rgb(100, 100, 88);
+    color: white;
+    border-radius: 10px 10px;
+    /* padding: 10px 5px; */
+}
+.banner-section img{
+    width: 100%;
+    flex: 0 0 auto;
+}
+.col-1-1 {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 100px;
+}
+article span{
+    color: rgb(148, 148, 148);
+    margin-top: 30px;
+    display: block;
+}
+article h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+article h1 a{
+    color: #333;
+    text-transform: inherit;
+    font-size: 30px;
+}
+article p{
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article a {
+    text-decoration: none;
+    color: #333333a6;
+    text-transform: uppercase;
+}
+article{
+    display: block;
+}
+article img{
+    width: 100%;
+}
+.left-content{
+    padding-left: 100px;    
+}
+.right-content{
+    padding-right: 100px;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+footer{
+    background: #f0f0f0;
+}
+footer .col-2-1{
+    padding: 25px 100px;
+}
+ul.footer-menu li a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+ul.social-link {
+    justify-content: flex-end;
+}
+ul.social-link li span {
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+ul.social-link li a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 20px;
+    transition-duration: .5s;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+fa-facebook:before {
+    content: "\f09a";
+}
